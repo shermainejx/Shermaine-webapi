@@ -54,7 +54,7 @@ music.updateDescriptionByTitle("Tell Me It's Not a Dream", "Music3a"); // update
 
 music.deleteSong(1); // deletes song from musicdatabase
 
-console.log("The searched results are: " + JSON.stringify(music.searchSong2("White Windmill"))); // search song from musicdatabase
+console.log("The searched results are: " + JSON.stringify(music.searchSong2("Tell Me It's Not a Dream"))); // search song from musicdatabase
 
 console.log(JSON.stringify(music.addNewPlaylist("Chinese"))); // adds a new playlist
 
